@@ -1,3 +1,4 @@
+%global milestone .0rc1
 # Globals Declaration
 
 
@@ -14,12 +15,16 @@ The Spark plugin for Sahara allows Sahara to provision and \
 manage Spark clusters on OpenStack.
 
 Name:          python-sahara-plugin-spark
-Version:       XXX
-Release:       XXX
+Version:       3.0.0
+Release:       0.1%{?milestone}%{?dist}
 Summary:       Apache Hadoop cluster management on OpenStack
 License:       ASL 2.0
 URL:           https://launchpad.net/sahara
 Source0:       https://tarballs.openstack.org/%{pname}/%{pname}-%{upstream_version}.tar.gz
+#
+# patches_base=3.0.0.0rc1
+#
+
 BuildArch:     noarch
 
 BuildRequires:    git
@@ -162,3 +167,6 @@ install -p -D -m 644 doc/build/man/*.1 %{buildroot}%{_mandir}/man1/
 
 
 %changelog
+* Wed Apr 29 2020 RDO <dev@lists.rdoproject.org> 3.0.0-0.1.0rc1
+- Update to 3.0.0.0rc1
+
