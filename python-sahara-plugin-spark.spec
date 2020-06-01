@@ -162,3 +162,4 @@ install -p -D -m 644 doc/build/man/*.1 %{buildroot}%{_mandir}/man1/
 
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/sahara-plugin-spark/commit/?id=7628c535082f39ec75768af4bc13c2b8fe34c098
