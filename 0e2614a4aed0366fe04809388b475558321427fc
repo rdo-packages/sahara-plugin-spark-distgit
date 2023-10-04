@@ -1,0 +1,8 @@
+Workflow+1: Luigi Toscano <ltoscano@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Luigi Toscano <ltoscano@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 04 Oct 2023 12:18:03 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/sahara-plugin-spark-distgit/+/50303
+Project: openstack/sahara-plugin-spark-distgit
+Branch: refs/heads/bobcat-rdo
